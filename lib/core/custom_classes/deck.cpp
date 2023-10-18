@@ -1,16 +1,7 @@
 //
-// Created by Bennett Westfall on 10/17/23.
+// Created by Bennett Westfall on 10/18/23.
 //
-
-#ifndef DECKOFCARDS_DECK_H
-#define DECKOFCARDS_DECK_H
-
-#include "piles.h"
-
-class Deck: public Pile {
-public:
-    Deck();
-};
+#include "deck.h"
 
 Deck::Deck() {
     for(int i = 1; i <= 13; i++){
@@ -23,5 +14,3 @@ Deck::Deck() {
     this->direction = FACE_DOWN;
     shuffle();
 }
-
-#endif //DECKOFCARDS_DECK_H

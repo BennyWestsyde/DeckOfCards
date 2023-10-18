@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../core/utils/card/suit.h"
+#include "../core/base_classes/suit.h"
 
 // Test the default constructor.
 TEST(Suit, DefaultConstructor) {

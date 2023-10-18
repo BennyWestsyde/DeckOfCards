@@ -7,8 +7,8 @@
 
 
 #include <vector>
-#include "core/player.h"
-#include "core/deck.h"
+#include "player.h"
+#include "../custom_classes/deck.h"
 
 class Game {
 public:

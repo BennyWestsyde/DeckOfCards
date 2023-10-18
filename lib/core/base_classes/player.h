@@ -7,8 +7,8 @@
 #include <utility>
 #include <vector>
 #include <string>
-#include "utils/card/cards.h"
-#include "piles.h"
+#include "cards.h"
+#include "../custom_classes/piles.h"
 
 class Player {
 public:
@@ -18,7 +18,6 @@ public:
 
     // Constructor and Destructor
     explicit Player(std::string name);
-    ~Player();
 
     // Methods
     void drawCard(const Card& newCard);
@@ -33,28 +32,7 @@ public:
 
 };
 
-Player::Player(std::string name) {
-    this->name = std::move(name);
-    this->hand = Pile();
-}
 
-void Player::drawCard(const Card& newCard) {
-    this->hand.push(newCard);
-
-}
-
-void Player::drawCards(const std::vector<Card>& newCards) {
-    for (auto & newCard : newCards) {
-        this->hand.push(newCard);
-    }
-
-}
-
-Card Player::dropCard(int i) {
-    return this->hand.pop(i);
-}
-
-Player::~Player() = default;
 
 
 #endif //DECKOFCARDS_PLAYER_H

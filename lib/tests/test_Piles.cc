@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../core/piles.h"
+#include "../core/custom_classes/piles.h"
 
 
 // TODO: Test Pile::Pile()

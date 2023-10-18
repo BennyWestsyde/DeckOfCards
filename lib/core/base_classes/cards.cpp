@@ -4,7 +4,7 @@
 
 #include <vector>
 #include <iostream>
-#include "../../piles.h"
+#include "../custom_classes/piles.h"
 #include "cards.h"
 #include <string>
 
@@ -17,7 +17,6 @@ Card::Card(Rank rank, const Suit& suit) : rank(rank), suit(suit) {
     this->suit = suit;
 }
 
-Card::~Card() = default;
 
 /*
  * Methods

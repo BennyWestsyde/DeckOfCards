@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../games.h"
+#include "../core/base_classes/games.h"
 
 // TODO: Test Game::Game(int numPlayers)
 TEST(Game, DefaultConstructor) {

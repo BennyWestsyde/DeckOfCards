@@ -6,9 +6,9 @@
 #define DECKOFCARDS_PILES_H
 
 #include <vector>
-#include "utils/card/cards.h"
-#include "utils/card/suit.h"
-#include "utils/set.h"
+#include "../base_classes/cards.h"
+#include "../base_classes/suit.h"
+#include "../base_classes/set.h"
 
 
 class Pile : public Set {

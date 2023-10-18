@@ -6,8 +6,8 @@
 #define DECKOFCARDS_PATTERNCHECKER_H
 
 #include <vector>
-#include "card/cards.h"
-#include "../piles.h"
+#include "../base_classes/cards.h"
+#include "../custom_classes/piles.h"
 
 
 class Rule {
@@ -50,7 +50,6 @@ public:
 
     // Constructor and Destructor
     patternChecker();
-    ~patternChecker();
 
     // Methods
     bool isRun(std::vector<Card> cards);

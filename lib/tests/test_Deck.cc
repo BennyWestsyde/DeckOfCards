@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../core/deck.h"
+#include "../core/custom_classes/deck.h"
 
 // TODO: Test Deck::Deck()
 TEST(Deck, DefaultConstructor) {

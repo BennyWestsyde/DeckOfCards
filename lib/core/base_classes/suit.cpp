@@ -3,7 +3,7 @@
 //
 
 #include "cards.h"
-#include "../../piles.h"
+#include "../custom_classes/piles.h"
 #include <iostream>
 #include <vector>
 #include "suit.h"
@@ -20,7 +20,6 @@ Suit::Suit(SuitType suit) : suit(suit) {
     }
 }
 
-Suit::~Suit() = default;
 
 // Operator Overloads
 

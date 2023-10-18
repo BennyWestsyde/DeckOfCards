@@ -5,8 +5,8 @@
 #ifndef DECKOFCARDS_SET_H
 #define DECKOFCARDS_SET_H
 
-#include "card/suit.h"
-#include "card/cards.h"
+#include "suit.h"
+#include "cards.h"
 #include <vector>
 
 
@@ -19,8 +19,7 @@ public:
     };
     // Constructors and Destructor
     Set();
-    explicit Set(const std::__1::vector<Card>& cards);
-    ~Set();
+    explicit Set(const std::vector<Card>& cards);
 
     // Methods
     void push(const Card& card);

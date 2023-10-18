@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
-#include "../core/utils/set.h"
-#include "../core/utils/card/cards.h"
+#include "../core/base_classes/set.h"
+#include "../core/base_classes/cards.h"
 
 // Prepare Test Environment
 Set GLOBSET = Set();
