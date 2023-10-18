@@ -29,10 +29,8 @@ class Card {
 public:
     // Constructor and Destructor
     Card(Rank rank, const Suit& suit);
-    ~Card();
 
     // Methods
-
     friend std::ostream &operator<<(std::ostream &os, const Card &card);
 
     // Operator Overloads

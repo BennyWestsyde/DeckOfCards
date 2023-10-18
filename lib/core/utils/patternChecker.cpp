@@ -22,5 +22,3 @@ bool Rule::checkRule(Set &cards) {
 
     return false;
 }
-
-Rule::~Rule() = default;

@@ -25,7 +25,6 @@ class Suit {
 public:
     // Constructor and Destructor
     explicit Suit(SuitType suit);
-    ~Suit();
 
     // Methods
 

@@ -3,10 +3,12 @@
 //
 
 #include "games.h"
+#include <vector>
+#include <string>
 
 Game::Game(int numPlayers) : numPlayers(numPlayers) {
     this->numPlayers = numPlayers;
-    this->players = std::__1::vector<Player>();
+    this->players = std::vector<Player>();
     this->deck = Deck();
     for (int i = 0; i < this->numPlayers; i++) {
         std::string name = "Player " + std::to_string(i + 1);

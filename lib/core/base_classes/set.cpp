@@ -16,8 +16,6 @@ Set::Set(const std::vector<Card> &cards) {
     this->direction = FACE_DOWN;
 }
 
-Set::~Set() = default;
-
 // Methods
 void Set::push(const Card &card)  {
     if(this->direction == FACE_UP){
